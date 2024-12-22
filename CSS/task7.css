@@ -1,0 +1,15 @@
+div{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    /* transition: ; */
+}
+div:hover{
+    width: 100px;
+    height: 50px;
+    color: aqua;
+}

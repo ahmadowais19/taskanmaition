@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+div{ 
+     width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: red;
+    animation-name: ahmad;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes ahmad{
+
+    0%{
+        background-color: red;
+        translate: 0 0 ;
+    }
+    25%{
+        background-color: yellow;
+        translate: 0 200px;
+    }
+    50%{
+        background-color: blue;
+        translate: 200px 200px;
+    }
+    75%{
+        background-color: green;
+        translate: 200px 0;
+   }
+   100%{
+    /* background-color: red; */
+    translate: 0 0;
+   }
+}

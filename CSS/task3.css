@@ -1,0 +1,25 @@
+
+div{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    animation-name: ahmad;
+    animation-duration: 4s;
+    animation-delay: 2ms;
+}
+@keyframes ahmad{
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: green;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: blue;
+    }
+
+}

@@ -1,0 +1,19 @@
+.one{
+    background-color: green;
+    color: aliceblue;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 50px;
+    transform: rotate( 25deg);
+}
+
+.tow{
+    background-color: green;
+    color: aliceblue;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    transform: rotate( -45deg);
+}
